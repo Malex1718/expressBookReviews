@@ -1,19 +1,31 @@
 {
-  "name": "bookshop",
-  "version": "1.0.1",
+  "name": "final_project",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test-axios.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malex1718/expressBookReviews.git"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malex1718/expressBookReviews/issues"
+  },
+  "homepage": "https://github.com/Malex1718/expressBookReviews#readme",
   "dependencies": {
-    "express": "^4.18.1",
-    "express-session": "^1.17.3",
-    "jsonwebtoken": "^8.5.1",
-    "nodemon": "^2.0.19"
+    "axios": "^1.12.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }

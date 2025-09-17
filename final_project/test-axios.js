@@ -94,9 +94,9 @@ async function runAllTests() {
     await testGetBooksByTitle('Things');
 
     console.log(colors.bright + colors.green);
-    console.log('\n╔═════════════════════════════════════════════╗');
-    console.log('║         ALL TESTS COMPLETED!                 ║');
-    console.log('╚══════════════════════════════════════════════╝');
+    console.log('\n╔════════════════════════════════════════════╗');
+    console.log('║         ALL TESTS COMPLETED!              ║');
+    console.log('╚════════════════════════════════════════════╝');
     console.log(colors.reset);
 }
 
